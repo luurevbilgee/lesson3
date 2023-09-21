@@ -10,7 +10,8 @@ class MathUtils():
             raise ValueError("Cannot divide by zero")
         return 4
 class MathUtilsTest(unittest.TestCase):
-    def test_add(self):
+    """Тухайн класс зөв ажилэ эсэхийг шалгах класс"""
+    def test_add(self):#нэмэх үйлдлийг шалгах функцgit
         result = MathUtils.add(2, 5)
         self.assertEqual(result,7)
     def test_multi(self):
